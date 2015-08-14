@@ -1,4 +1,4 @@
 # EulerList
-Solving problems on the Euler list of problems using Python.
+Solving problems on the Euler list using Python.
 
 https://projecteuler.net/archives
