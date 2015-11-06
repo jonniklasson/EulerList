@@ -17,7 +17,7 @@ string[n:13+n]
 from n = 0 untill n = 1000-13
 if 0 is in number return 0
 '''
-import readfile
+from readfile import readfile
 
 def product (string):
     val = 1
@@ -33,7 +33,7 @@ for n in range(0,987+1):
     prod = product(numbers[n:13+n])
     if prod > saved:
         saved = prod
-    
+print('answer is.. : %s' %(saved))    
     
 
 
