@@ -1,7 +1,8 @@
 
-from readfile import readfile
+from functions.readfile import readfile
+source = "data/Problem11_20x20Numbers.txt"
 
-numbers = str.split(readfile('gridnumbers.txt'))
+numbers = str.split(readfile(source))
 for k in range(len(numbers)):
     numbers[k] = int(numbers[k][0])*10+int(numbers[k][1])
 

@@ -1,4 +1,4 @@
-##
+## Not completed, 
 ##new side a	new side b	new side c
 ##T1:	a − 2b + 2c	2a − b + 2c	2a − 2b + 3c
 ##T2:	a + 2b + 2c	2a + b + 2c	2a + 2b + 3c

@@ -1,5 +1,7 @@
 import math
 
+# Uses int fivision and mod to check palindromes, takes a long time
+
 def findpalindrome():
     for n in range(997002,10099, -1):
         if numbertest(n) == True:
@@ -49,4 +51,7 @@ def numbertest(number):
     else:
         return False
 
-
+#run
+tick()    
+findpalindrome()
+tock()

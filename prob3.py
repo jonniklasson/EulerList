@@ -6,6 +6,8 @@ list of non-whitespace characters converted into integer
 used to create a list of primes from a plain text with primes.
 filename, string of 
 '''
+source = "data/Problem3primes.txt"
+
 def readprimes (filename):
     lines = []
     primes = []
@@ -35,7 +37,7 @@ def readprimes (filename):
         out.append(int(char))
     return out
 
-def primefactor (number, primes=readprimes("primes.txt")):
+def primefactor (number, primes=readprimes(source)):
 
     '''
     First consider the edge case, in the case of an even number
